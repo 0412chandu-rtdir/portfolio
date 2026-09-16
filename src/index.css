@@ -948,3 +948,37 @@ footer i:last-child {
   }
 
 }
+
+
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+
+.success-section {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.success-message {
+  text-align: center;
+}
+
+.success-message i {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.success-message h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.success-message p {
+  font-size: 18px;
+
+}
